@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input[type=color] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  visibility: hidden; /* hide the color picker rectangle so we can use an icon instead */
+  z-index: -1;
+}
+
+.canvas-cursor {
+  text-align: center;
+  z-index: 1;
+  
+  width: 100%;
+  height: 100%;
+  /*width: 1%;
+  height: 1%;
+*/
+  /*position: fixed; */
+  top: -50;
+  left: -50;
+  cursor: url(images/eraser.png), auto; 
+  /*cursor: url(eraser.png), default; */
+  /*transform: "translate(-50%, -50%)"; */
+ }
+
+ /*
+  z-index: 1000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+  */
+/*
+label {
+  cursor: pointer;
+}
+*/
+
+/*
+.color-picker-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  margin: 50px;
+  font-size:  300px;
+}
+*/
+/*
+.color-display{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  transition: 0.25 ease;
+}
+*/
+
+/*
+.color-display p{
+  color: hs1(0, 0%, 20%);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+*/
+
+/*
+input[type="color"]{
+  width: 60px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 5%;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+*/
